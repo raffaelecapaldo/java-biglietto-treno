@@ -16,6 +16,8 @@ public class CalcolaBiglietto {
 
 		System.out.print("Inserisci il numero di KM che percorrerai: ");
 		int userKm = scanner.nextInt();
+		
+		scanner.close();
 
 		String fare = "Base";
 		double priceForKm = 0.21;
